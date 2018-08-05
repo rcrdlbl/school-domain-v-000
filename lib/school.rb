@@ -18,8 +18,8 @@ class School
   end
 
   def sort
-    @roster.each do |grade, list|
-      list.sort
+    @roster.each do |grade, students|
+      students.sort
     end
   end
 
